@@ -1,0 +1,55 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 360px;
+    height: 40px auto;
+    padding: 119px 24px 8px 24px;
+    background-color: white;    
+}
+
+#input-username {
+    margin-top: 48px;
+}
+
+.slide {
+    line-height: 0;
+    padding-bottom: 11px;
+}
+
+.slide div:first-child {
+    width: 139px;
+    height: 1px;
+}
+
+.slide div:last-child {
+    width: 139px;
+    height: 1px;
+}
+
+.slide div:nth-child(2) {
+    width: calc(360px - 24px - 24px - 139px - 139px);
+}
+
+.form-control {
+    border-radius: 10px;
+    height: 48px;
+}
+
+.btn{
+    height: 48px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.btn img {
+    position: absolute;
+    left: 8px;
+}
+
+.toggle-password{
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
