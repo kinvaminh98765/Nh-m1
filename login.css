@@ -123,6 +123,9 @@ button{
     text-decoration: none;
     color: black;
 }
+.forgot:hover{
+    color: #FF790D;
+}
 .submit{
     width: 150px;
     height: 60px;
@@ -136,6 +139,7 @@ button{
 }
 .dont{
     font-size: 22px;
+    user-select: none;
 }
 .SU{
     font-size: 22px;
