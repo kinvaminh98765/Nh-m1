@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+
+.hrader5{
+    width: 1440px;
+    height: 833px;
+    background-color: #FAFAFA;;
+}
+.navbar{
+    width: auto; 
+    height: 58px;
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 136px;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+}
+#menu a li{
+    list-style-type: none;
+
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+    padding-left: 21px;
+}
+#menu a:hover{
+    color:#FF790D;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.login{
+    width: 500px;
+    height: 631px;
+    border-radius: 30px;
+    background-color: #FFF;
+    margin-top: 35px;
+    margin-left: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backgroud{
+    height: 631px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+}
+.Email{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 360px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+    transition: 0.5s;
+}
+.password{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 360px;
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    outline: none;
+    transition: 0.5s;
+}
+.LP{
+    font-size: 22px;
+    font-weight: 500px;
+    position: absolute;
+    top: 485px;
+    left: 380px;
+    pointer-events: none;
+    user-select: none;
+}
+.LE{
+    font-size: 22px;
+    font-weight: 500px;
+    position: absolute;
+    top: 390px;
+    left: 380px;
+    pointer-events: none;
+    user-select: none;
+}
+.password:focus{
+    border-bottom:#FF790D 1px solid;
+}
+.Email:focus{
+    border-bottom:#FF790D 1px solid;
+}
+.password:focus + .LP{
+    top: 455px;
+    color: #FF790D;
+}
+.Email:focus + .LE{
+    top: 360px;
+    color: #FF790D;
+}
+.password:not(:placeholder-shown) + .LP,
+.Email:not(:placeholder-shown) + .LE,
+.forgot{
+    width: 370px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.submit{
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FF790D;
+    margin-top: 88px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: white;
+}
+.dont{
+    font-size: 22px;
+}
+.SU{
+    font-size: 22px;
+    text-decoration: none;
+    color: #FF790D;
+    margin-left: 10px;
+}
